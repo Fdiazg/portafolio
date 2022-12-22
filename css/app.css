@@ -3,6 +3,7 @@
     color: white !important;
 } */
 
+
 h1.dark {
   color: white;
   font-size: 50px !important;
@@ -104,7 +105,7 @@ body.dark .header {
 .liHabilidades{
   border: solid 1px;
   border-radius: 10px;
-  margin: 0.5rem;
+  margin: 0.4rem;
   padding: 0.4rem;
 }
 
@@ -192,6 +193,7 @@ body.dark .liExperiencias{
   display: flex;
   position: absolute;
   flex-direction: row;
+  margin-bottom: 500px;
 }
 
 .contacto li:hover {
@@ -231,3 +233,34 @@ body.dark .liExperiencias{
 /* .iconos a{
     color: white;
 }  */
+
+
+/* MEDIA */
+
+@media only screen and (max-width: 1150px) {
+
+#habilidades {
+  display: inline-block;
+
+}
+
+#habilidades li {
+  display: inline-flex;
+
+}
+}
+/* 
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+
+
+} */
+
+
+/* @media only screen and (max-width: 992px) {
+
+  #habilidades {
+    display: inline-block;
+    max-width: 50px;
+  }
+  
+  } */
