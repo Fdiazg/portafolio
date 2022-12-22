@@ -1,0 +1,233 @@
+/* body {
+    background-color: black !important;
+    color: white !important;
+} */
+
+h1.dark {
+  color: white;
+  font-size: 50px !important;
+}
+
+p {
+  font-size: 15px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.iconos a:hover {
+
+  color: rgb(88, 189, 236);
+}
+
+.iconPrincipal{
+  margin-left: 8px;
+}
+
+.gitH {
+font-size: 1.6rem ;
+}
+
+/* .container {
+  margin-top: 5rem;
+} */
+
+.infoPag{
+  border-style: solid;
+  padding: 4px;
+}
+
+/* .btn-primaryU {
+  background-color: rgb(138, 43, 226) !important;
+  border-color: rgb(138, 43, 226) !important;
+}
+
+.btn-primaryU:hover {
+
+  background-color: rgb(110, 23, 192) !important;
+
+} */
+
+/* .experiencia:hover {
+  font-size: 120%;
+} */
+
+
+.header {
+  background-color: rgb(07, 39, 54);
+
+}
+
+.header a {
+  color: white;
+}
+
+.header a:hover {
+  color: #ffff;
+  border-bottom: 2px solid rgb(33, 116, 155);
+}
+
+body.dark {
+  background-color: rgb(07, 39, 54);
+  color: #ffff;
+}
+
+body.dark .header {
+  background-color: rgb(0, 23, 39);
+}
+
+/* body.dark #footer{
+  background-color: rgb(0, 23, 39);
+
+} */
+
+/* {
+     box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
+  } */
+
+
+/*  Habilidades | Aprendiendo  */
+
+.liHabilidades{
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding: 0.4rem;
+}
+
+.liExperiencias {
+  border: solid 1px;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+  padding: 0.4rem;
+  border-color: rgb(88, 189, 236);
+  background-color: rgb(88, 189, 236, 0.15);
+
+}
+
+body.dark .liExperiencias{
+  border-color: rgb(29, 101, 134);
+}
+/* ul > li > .liHabilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
+/* Darkmode */
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color: rgb(33, 116, 155, 0.4);
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+  
+}
+
+
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked+.label .ball {
+  transform: translateX(24px);
+  background-color: rgb(3, 172, 250);
+
+}
+
+.bi-moon-fill {
+  color: white;
+}
+
+.bi-sun-fill {
+  color: rgb(235, 203, 22);
+}
+
+
+/* img perfil */
+.imgRedonda{
+  width:100px;
+  height:100px;
+  border-radius:150px;
+}
+
+
+
+/* Contacto */
+#footer {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+}
+
+.contacto li:hover {
+  background-color: rgb(33, 116, 155, 0.2);
+}
+
+.bi-arrow-up-circle-fill{
+  font-size: 4rem;
+}
+
+
+/* .contacto {
+	width: 70%;
+	height: 100%;
+	padding: 5px 5px 20px 20px;
+}
+.contacto h4 {
+	padding-left: 40px;
+}
+.linksContacto {
+	width: 30%;
+	height: auto;
+	padding: 5px 5px 20px 20px;
+}
+.contactoLi {
+	display: flex;
+} */
+
+
+
+
+
+/* .iconos a {
+    color: 
+} */
+
+/* .iconos a{
+    color: white;
+}  */
