@@ -13,6 +13,11 @@ p {
   font-size: 15px !important;
 }
 
+.about p {
+  text-align: justify;
+
+}
+
 a {
   text-decoration: none !important;
 }
@@ -118,6 +123,11 @@ body.dark .header {
   background-color: rgb(88, 189, 236, 0.15);
 
 }
+
+.liRepositorios i{
+  color: yellow;
+}
+
 
 body.dark .liExperiencias{
   border-color: rgb(29, 101, 134);
@@ -248,6 +258,55 @@ body.dark .liExperiencias{
   display: inline-flex;
 
 }
+
+#reFicha {
+  display: inline-block;
+}
+
+#reFicha  li {
+  display: inline-flex;
+  margin: 2px;
+}
+
+#reHorario {
+  display: inline-block;
+}
+
+#reHorario  li {
+  display: inline-flex;
+  margin: 2px;
+}
+#reAkuma {
+  display: inline-block;
+}
+
+#reAkuma  li {
+  display: inline-flex;
+  margin: 2px;
+}
+
+#reAkumaBD {
+  display: inline-block;
+}
+
+#reAkumaBD  li {
+  display: inline-flex;
+  margin: 2px;
+  
+}
+
+#reGBMVC {
+  display: inline-block;
+}
+
+#reGBMVC  li {
+  display: inline-flex;
+  margin: 2px;
+}
+
+
+
+
 }
 /* 
 @media only screen and (max-width: 600px) and (min-width: 400px)  {
